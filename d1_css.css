@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+*{
+    font-family: "Edu NSW ACT Cursive", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.hi{ color: cornflowerblue;
+text-decoration: wavy underline;
+}
+body{
+    background-color: hotpink;
+    font-size: 20px;
+    font-size: 16px;
+
+}
+.b1{
+    padding: 150px !important;
+    cursor: grab;
+   /* margin: 1rem;*/
+    font-size: 20px;
+    color: rgb(8, 59, 59);
+    font-style: italic;
+    background-color: chartreuse;
+    border: 6px dashed red;
+    border-radius: 25px 0 25px;
+transition: ease-in-out;
+padding:140px ;
+}
+.b1:hover {
+    background-color: burlywood;
+    color: cadetblue;
+}
+.my_list {
+    display: grid;
+    list-style: none;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    
+
+}
+.my_list li{
+    outline: 1px solid black;
+    text-align: center;
+   /* margin: auto;*/
+
+}
+.ul_list{
+    outline: 1px solid;
+    list-style: none;
+display: flex;
+gap: 0px 20px;
+justify-content: space-around;
+align-items: center;
+flex-direction: column-reverse;
+height: 10rem;
+
+
+}
+
+#I1{
+    width: 40vw;
+    height:50vh;
+ border-radius: 50%;
+ object-fit: cover ;
+}
